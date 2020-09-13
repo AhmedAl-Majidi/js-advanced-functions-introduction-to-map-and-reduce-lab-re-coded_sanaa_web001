@@ -31,6 +31,7 @@ function mapToSquare(arr){
 // reduceToAllTrue(sourceArray)
 // reduceToAnyTrue(sourceArray)
 
+<<<<<<< HEAD
 function reduceToTotal(arr, startingPoint=0) {
   // startingPoint =0;
   let total = startingPoint;
@@ -52,4 +53,12 @@ function reduceToAnyTrue(arr) {
     if (arr[i]===true) return true
   }
   return false;
+=======
+function reduceToTotal(arr, startingPoint) {
+  let total = startingPoint;
+  let total = 0;
+    return arr.reduce(function(element) {
+      return total + element;
+  });
+>>>>>>> 8d9826eb1c743a04cd7b80cce34f4b96537ec074
 }
